@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="688" prefWidth="960" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.start.RandomStartController">
+   <children>
+      <JFXSpinner layoutX="455.0" layoutY="205.0" />
+      <JFXButton layoutX="407.0" layoutY="361.0" onAction="#onStart" prefHeight="63.0" prefWidth="146.0" text="开始测试">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

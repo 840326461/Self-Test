@@ -13,7 +13,7 @@ acquaint vt.使认识，使了解
 action n.作用;情节
 adhere vi.粘附;追随;坚持
 adjacent a.毗连的;紧接着的
-adjoin vt.贴近，毗连;==
+adjoin vt.贴近，毗连
 adjustable a.可调整的，可校准的
 administration n.局(或署、处等)
 admiration n.钦佩;赞美，羡慕
@@ -1076,7 +1076,7 @@ magnify vt.放大，扩大
 magnitude n.大小;重大;星等
 maid n.少女;处女
 maiden n.少女，未婚女子
-main n.总管道，干线
+logic.main n.总管道，干线
 maintenance n.扶养;坚持
 majesty n.威严，尊严;陛下
 makeup n.组织;性格;化装品

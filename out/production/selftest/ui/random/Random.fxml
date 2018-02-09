@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="688.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.random.RandomController">
+   <children>
+      <JFXRadioButton fx:id="A" graphicTextGap="5.0" layoutX="195.0" layoutY="195.0" prefHeight="59.0" prefWidth="699.0" selected="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXRadioButton>
+      <Label fx:id="wordLabel" alignment="CENTER" layoutX="263.0" layoutY="85.0" prefHeight="59.0" prefWidth="434.0" text="Label">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <JFXRadioButton fx:id="B" graphicTextGap="5.0" layoutX="195.0" layoutY="262.0" prefHeight="59.0" prefWidth="699.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="C" graphicTextGap="5.0" layoutX="195.0" layoutY="326.0" prefHeight="59.0" prefWidth="699.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="D" graphicTextGap="5.0" layoutX="195.0" layoutY="392.0" prefHeight="59.0" prefWidth="699.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXButton fx:id="confirm" layoutX="275.0" layoutY="463.0" onAction="#onConfirm" prefHeight="59.0" prefWidth="104.0" text="确认">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="meaningLabel" alignment="CENTER" layoutX="263.0" layoutY="544.0" prefHeight="59.0" prefWidth="434.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="next" layoutX="538.0" layoutY="463.0" onAction="#onNext" prefHeight="59.0" prefWidth="104.0" text="下一个">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

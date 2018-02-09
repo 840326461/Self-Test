@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainUIController">
+   <children>
+      <JFXTabPane prefHeight="720.0" prefWidth="960.0">
+         <tabs>
+            <Tab fx:id="orderTab" text="顺序测试" />
+            <Tab fx:id="randomTab" text="随机测试" />
+            <Tab fx:id="lookUpTab" text="词表查询" />
+         </tabs>
+      </JFXTabPane>
+   </children>
+</AnchorPane>
